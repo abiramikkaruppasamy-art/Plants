@@ -1,14 +1,13 @@
 body{
-    background-image: url(../img/home.png);
     height: 600px;
     width: 300x;
-
+    
 }
 .nav-head{
     display: flex;
     /* align-items: flex-start; */
     background-color: #326a01;
-
+    
 }
 .nav-head img{
     margin-bottom: 20px;
@@ -49,11 +48,24 @@ body{
     color: #326a01;
     font-size: 20px;
 }
+
+/* #page-content */
+
 .content{
+    /* background-image: url(../img/WELCOME\ to\ GREEN\ HOME\ \(1\).png); */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid;
+    /* border: 2px solid; */
     height: 550px;
+}
+
+.content-wel{
+    /* background-image: url(../img/Adobe\ Express\ -\ file.png); */
+    position: absolute;
+    height: 90%;
+    width: 40%;
+    size: 10cm;
+    
 }
 
