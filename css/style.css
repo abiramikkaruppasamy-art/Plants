@@ -12,9 +12,22 @@ body{
 .nav-head img{
     margin-bottom: 20px;
 }
+.nav-text-hd{
+    display: flex;
+    align-items: center;
+    /* position: absolute;
+    top: 400px;
+    left: 70px; */
+}
 .nav-text{
     display: flex;
     align-items: center;
+    position: absolute;
+    top: 400px;
+    left: 70px;
+}
+.tree-img{
+    filter: drop-shadow(1px 1px 30px brown);
 }
 .nav-bottom{
     display: flex;
