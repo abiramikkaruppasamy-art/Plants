@@ -38,7 +38,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     if (password !== confirmPassword) {
       alert("Passwords do not match!");
       return;
-    }
+    }  
   
     alert("Welcome, " + username + "! You have successfully logged in.");
     window.location.href = "../html/homepage.html";  
