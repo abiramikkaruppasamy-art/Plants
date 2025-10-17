@@ -274,14 +274,31 @@ body{
     top: 800px;
     z-index: 3;
     filter: drop-shadow(1px 1px 3px black);
+    transition:all 2s ease 1s;
+    animation: floatLeaf 5s ease-in-out infinite;
   }
-
+  .leaf:hover {
+    transform: scale(1.0) rotate(100deg); /* Zoom and tilt on hover */
+}
   .leaf img {
     width: 60px;
     height: auto;
     position: absolute;
     filter: drop-shadow(1px 1px 3px black);
+    transition:all 2s ease 1s;
   }
+  /* New keyframes for subtle movement (up-down float with slight rotate) */
+@keyframes floatLeaf {
+  0% {
+      transform: translateY(0) rotate(0deg);
+  }
+  50% {
+      transform: translateY(-10px) rotate(5deg); /* Slight up and tilt */
+  }
+  100% {
+      transform: translateY(0) rotate(0deg);
+  }
+}
   
   .leaf1 { top: 600px; left: 700px; }
   .leaf2 { top: 300px; right: 200px; }
